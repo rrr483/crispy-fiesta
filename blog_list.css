@@ -1,0 +1,44 @@
+.blog {
+    width: 100%;
+    padding: 20px;
+}
+
+/*标题*/
+.blog .title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*日期*/
+.blog .date {
+    color: cadetblue;
+    text-align: center;
+    padding: 5px;
+}
+
+/*首行缩进两字符*/
+.blog .desc {
+    text-indent: 2em;
+    font-style: inherit;
+}
+
+/*查看全文的按钮*/
+.blog a{
+    text-align: center;
+    display: block;
+    width:130px;
+    height: 40px;
+    margin:10px auto;
+    line-height: 40px;
+    border: 2px black solid;
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.blog a:hover {
+    background-color: #333;
+    color:#fff
+}
